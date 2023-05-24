@@ -20,4 +20,9 @@ class PageController extends Controller
         //var_dump($movies);
         return view('movies', compact("movies"));
     }
+
+    public function contacts()
+    {
+        return view('contacts');
+    }
 }
